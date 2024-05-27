@@ -14,13 +14,16 @@ int main() {
     std::string token;
    
     // 循环读取字符串流中的, 用"," 隔开的 每个token
+    std::cout << "输入: ";
     while (std::getline(iss, token, ',')) {
         std::istringstream tokenStream(token);
         int num;
         if (tokenStream >> num) { // 将token转换为整数
+            std::cout << num << "  ";
             scores.push_back(num);
         }
     }
+    std::cout << std::endl;
 
     // 判断输入的数据如果超过10个则程序退出
     if (scores.size() > 10) {
@@ -29,20 +32,21 @@ int main() {
     }
 
     // 输出提示,准备打印对应的等级成绩
-    std::cout << "对应的等级成绩为:" << std::endl;
+    std::cout << "输出: " ;
     for (const int& score : scores) { 
         if (score >= 90) { 
-            std::cout << score << " --> 优秀" << std::endl; 
+            std::cout << "  优秀  " ;
         } else if (score >= 80) { 
-            std::cout << score << " --> 良好" << std::endl; 
+            std::cout << "  良好  " ;
         } else if (score >= 70) { 
-            std::cout << score << " --> 中等" << std::endl; 
+            std::cout << "  中等  " ;
         } else if (score >= 60) { 
-            std::cout << score << " --> 及格" << std::endl; 
+            std::cout << "  及格  " ;
         } else { 
-            std::cout << score << " --> 不及格" << std::endl; 
+            std::cout << "  不及格  " ;
         }
     }
+    std::cout << std::endl;
 
     return 0; 
 }
