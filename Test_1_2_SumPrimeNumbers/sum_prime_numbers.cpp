@@ -8,7 +8,7 @@ bool isPrime(int n);
 int main() {
     /**
     创建一个 vector 来存储素数
-    vector 在 C++ 中相类似于数组, 相当于java 中的 ArrayList类
+    vector 在 C++ 中相类似于数组, 相当于java 中的 Vector类
     list 在 C++ 中相当于链表, 相当于 java 中的 LinkedList类
     */
     std::vector<int> primes;
