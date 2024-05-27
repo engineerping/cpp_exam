@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/gcsp/Coding/cpp-vscode/exam/Test_3_2_QiuZuHeShu",
-      "program": "/Users/gcsp/Coding/cpp-vscode/exam/Test_3_2_QiuZuHeShu/build/Debug/outDebug"
+      "cwd": "/Users/gcsp/Coding/cpp-vscode/exam/Test_5_1_My_List",
+      "program": "/Users/gcsp/Coding/cpp-vscode/exam/Test_5_1_My_List/build/Debug/outDebug"
     }
   ]
 }
