@@ -8,6 +8,7 @@ struct ListNode {
 
     /** 
     用于初始化链表节点的值和下一个节点的指针。
+    
     构造函数接受一个整数参数 val，将其用于初始化节点存储的值 value，
     并将指针 next 初始化为 nullptr   
 

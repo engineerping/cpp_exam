@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/gcsp/Coding/cpp-vscode/exam/Test_5_MySinglyLinkedList",
-      "program": "/Users/gcsp/Coding/cpp-vscode/exam/Test_5_MySinglyLinkedList/build/Debug/outDebug"
+      "cwd": "/Users/gcsp/Coding/cpp-vscode/exam/Test_4_2_SortChar",
+      "program": "/Users/gcsp/Coding/cpp-vscode/exam/Test_4_2_SortChar/build/Debug/outDebug"
     }
   ]
 }
