@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/gcsp/Coding/cpp-vscode/exam/Test_2_1_DegreeFor_score",
-      "program": "/Users/gcsp/Coding/cpp-vscode/exam/Test_2_1_DegreeFor_score/build/Debug/outDebug"
+      "cwd": "/Users/gcsp/Coding/cpp-vscode/exam/Test_2_2_DegreeFor_score",
+      "program": "/Users/gcsp/Coding/cpp-vscode/exam/Test_2_2_DegreeFor_score/build/Debug/outDebug"
     }
   ]
 }
